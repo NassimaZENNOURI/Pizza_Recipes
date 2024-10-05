@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FC0B0B0B">
+
+    <!-- Loading Image -->
+
+    <!-- Main Image -->
+
+    <ImageView
+        android:id="@+id/loading"
+        android:layout_width="405dp"
+        android:layout_height="322dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="85dp"
+        android:src="@drawable/loading" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/image" />
+
+    <!-- Pizza Recipes Text -->
+    <TextView
+        android:id="@+id/textPizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Pizza Recipes"
+        android:textSize="50sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <!-- Take Your Pizza Text -->
+    <TextView
+        android:id="@+id/textPizza2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textPizza"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Take Your Pizza"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>

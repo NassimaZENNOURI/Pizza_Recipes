@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#E2FDCACA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Image de la pizza -->
+        <ImageView
+            android:id="@+id/imagePizza"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:contentDescription="Pizza Image"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Nom de la pizza -->
+        <TextView
+            android:id="@+id/nomPizza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:textAllCaps="true"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Titre de la description -->
+        <TextView
+            android:id="@+id/descriptionTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Description"
+            android:textColor="#420404"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Texte de la description -->
+        <TextView
+            android:id="@+id/descriptionPizza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#555555"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Titre de la préparation -->
+        <TextView
+            android:id="@+id/preparationTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Préparation"
+            android:textColor="#420404"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Texte de la préparation -->
+        <TextView
+            android:id="@+id/preparation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#555555"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Titre des ingrédients -->
+        <TextView
+            android:id="@+id/IngredientsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Ingrédients"
+            android:textColor="#420404"
+            android:padding="8dp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Texte des ingrédients -->
+        <TextView
+            android:id="@+id/Ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#555555"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp"/>
+
+    </LinearLayout>
+</ScrollView>
